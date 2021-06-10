@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <link rel="stylesheet" href="Calculadora.css">
+    <script type="text/javascript" src="Calculadora.js"></script>
+    
+</head>
+    
+    
+<body>
+    
+    <div id="calculadora">
+        <table>
+            
+            <tr>
+            
+            <th colspan="4"><h1>Calculadora mt loka</h1></th>
+            
+            </tr>
+        
+        <!-------------------- LINHA -------------------->
+        
+        <tr>
+        
+            <td colspan="3"><input id="display" disabled></td>
+            <td><input name="delete" value="<-" onclick="apagar()" type="button"></td> 
+           
+        </tr>
+        
+        <!-------------------- LINHA -------------------->
+        
+        <tr>
+            <td><input name="1" value="1" onclick="calcular('1')" type="button"></td>
+            <td><input name="2" value="2" onclick="calcular('2')" type="button"></td>
+            <td><input name="3" value="3" onclick="calcular('3')" type="button"></td>
+            <td><input name="mais" value="+" onclick="calcular('+')" type="button"></td>
+        </tr>  
+        
+        <!-------------------- LINHA -------------------->
+        
+        <tr>
+            <td><input name="4" value="4" onclick="calcular('4')" type="button"></td>
+            <td><input name="5" value="5" onclick="calcular('5')" type="button"></td>
+            <td><input name="6" value="6" onclick="calcular('6')" type="button"></td>
+            <td><input name="menos" value="-" onclick="calcular('-')" type="button"></td>
+        </tr>  
+    
+        <!-------------------- LINHA -------------------->
+        
+        <tr>
+            <td><input name="7" value="7" onclick="calcular('7')" type="button"></td>
+            <td><input name="8" value="8" onclick="calcular('8')" type="button"></td>
+            <td><input name="9" value="9" onclick="calcular('9')" type="button"></td>
+            <td><input name="vezes" value="X" onclick="calcular('*')" type="button"></td>
+        </tr>  
+        
+        <!-------------------- LINHA -------------------->
+        
+        <tr>
+            <td><input name="virgulinha" value="," onclick="calcular('.')" type="button"></td>
+            <td><input name="0" value="0" onclick="calcular('0')" type="button"></td>
+            <td><input name="igual" value="=" onclick="total()" type="button"></td>
+            <td><input name="dividido" value="/" onclick="calcular('/')" type="button"></td>
+        </tr>  
+        
+        <!-------------------- LINHA -------------------->
+            
+       </table>       
+    </div>
+    
+</body>
+</html>
